@@ -1,1 +1,249 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#002B59">
+
+<title>AVERTISSEMENT RELATIF À L’EXPOSITION DES ÉQUIPIERS</title>
+
+<style>
+:root {
+  --fond: #002B59;
+  --jaune: #FFCE3E;
+  --texte: #E2EBF6;
+  --blanc: #F5F8FF;
+  --secondaire: #B0C7DE;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--fond);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.74;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  width: min(100%, 1240px);
+  margin: 0 auto;
+  padding: clamp(24px,5vw,68px) clamp(20px,5vw,76px) 80px;
+}
+
+header {
+  border-bottom: 1px solid rgba(255,206,62,.37);
+  padding-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.5rem,3vw,2.65rem);
+  line-height: 1.2;
+  letter-spacing: -.025em;
+  color: var(--blanc);
+  font-weight: 800;
+}
+
+.version {
+  font-size: .94rem;
+  color: var(--secondaire);
+  margin-top: 12px;
+}
+
+.accent {
+  color: var(--jaune);
+}
+
+strong {
+  font-weight: 790;
+}
+
+.rappel {
+  margin: 37px 0 40px;
+  padding: 25px 30px;
+  border: 1px solid rgba(255,206,62,.65);
+  border-left: 5px solid var(--jaune);
+  border-radius: 13px;
+  background: rgba(255,255,255,.035);
+}
+
+.rappel h2 {
+  font-size: .9rem;
+  letter-spacing: .115em;
+  color: var(--jaune);
+  margin: 0 0 13px;
+}
+
+.rappel p {
+  margin: 0;
+}
+
+.colonnes {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: clamp(30px,5vw,74px);
+  align-items: start;
+}
+
+.colonne {
+  min-width: 0;
+}
+
+p {
+  margin: 0 0 23px;
+  overflow-wrap: break-word;
+}
+
+.important {
+  padding-left: 18px;
+  border-left: 3px solid var(--jaune);
+  margin: 12px 0 28px;
+}
+
+.encadre {
+  border: 1px solid rgba(255,206,62,.77);
+  border-radius: 12px;
+  background: rgba(255,206,62,.045);
+  padding: 21px 22px 1px;
+  margin: 11px 0 24px;
+}
+
+footer {
+  margin-top: 33px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255,206,62,.37);
+}
+
+footer p {
+  margin: 0;
+}
+
+a {
+  color: var(--jaune);
+  overflow-wrap: anywhere;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 800px) {
+  .page {
+    max-width: 680px;
+    padding-bottom: 58px;
+  }
+
+  .colonnes {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .rappel {
+    margin: 31px 0 33px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 22px 18px 48px;
+  }
+
+  h1 {
+    font-size: clamp(1.2rem,5.1vw,1.6rem);
+  }
+
+  .rappel {
+    padding: 21px 19px;
+    margin: 26px 0 31px;
+  }
+
+  .encadre {
+    padding: 18px 17px 1px;
+  }
+
+  body {
+    font-size: .99rem;
+  }
+}
+</style>
+</head>
+
+<body>
+<main class="page">
+
+<header>
+<h1>AVERTISSEMENT RELATIF À L’EXPOSITION DES ÉQUIPIERS</h1>
+<p class="version"><strong><em>Version du 13 novembre 2026</em></strong></p>
+</header>
+
+<section class="rappel">
+<h2><strong>RAPPEL</strong></h2>
+
+<p>Notre communauté en ligne « Le train du ras-le-bol », nos groupes WhatsApp « Les reporters », nos activités, nos méthodes et notre organisation <strong><span class="accent">sont totalement indépendants</span> des transporteurs ferroviaires, des autorités organisatrices, des associations, des collectifs et des comités d’usagers</strong>. Nous n’avons <strong><span class="accent">aucun lien</span> de dépendance, de subordination ou de rattachement, et n’avons pas vocation à travailler ou à échanger avec ces parties</strong>. Nous n’agissons <strong>ni sous leur responsabilité ni selon leurs instructions et n’avons <span class="accent">aucun compte à leur rendre</span></strong>. Nous sommes <strong><span class="accent">autonomes</span></strong>.</p>
+</section>
+
+<section class="colonnes" aria-label="Fiche d’information">
+
+<div class="colonne">
+
+<p>Dans le cadre de notre politique d’animation, les équipiers proposent régulièrement des <strong>contenus les représentant</strong>.</p>
+
+<p>La vocation des <strong>contenus représentant les équipiers</strong> réside dans la volonté de rendre les échanges plus humains, et d’apporter une touche de divertissement.</p>
+
+<p>Les <strong>contenus représentant les équipiers</strong> se déclinent en plusieurs poses, plusieurs scènes dans des contextes et des environnements quasi-similaires.</p>
+
+<p>Ces <strong>contenus représentant les équipiers</strong> sont créés, utilisés et diffusés <span class="accent">dans le respect des règles applicables en matière de protection des données</span>.</p>
+
+<p>Malgré la stylisation apportée par l’intelligence artificielle, les <strong>contenus représentant les équipiers</strong> constituent des données à caractère personnel ; les équipiers restant identifiables.</p>
+
+<p class="important"><strong><span class="accent">Le recours à l’intelligence artificielle ne les soustrait donc pas aux obligations correspondantes</span></strong></p>
+
+<p>Le choix de créer les <strong><span class="accent">contenus représentant les équipiers</span></strong> avec l’aide de l’intelligence artificielle s’inscrit notamment dans une nécessité de <span class="accent">conformité et dans l’application du principe de minimisation des données</span>.</p>
+
+<p>En effet, au regard des finalités poursuivies par notre activité d’animation sur « Le train du ras-le-bol », <strong>la diffusion de photographies réelles des équipiers n’apparaît pas nécessaire</strong>.</p>
+
+<p>Le recours à l’intelligence artificielle permet ainsi <strong>de maîtriser la pertinence des données diffusées</strong> <strong>et conservées</strong>, tout en <strong>répondant à notre volonté de proposer une identité visuelle harmonisée et cohérente</strong>.</p>
+
+<p class="important"><strong><span class="accent">Ces contenus restent suffisamment ressemblants pour permettre l’identification des équipiers.</span></strong></p>
+
+</div>
+
+<div class="colonne">
+
+<p>Le degré de ressemblance des <strong>contenus représentant</strong> les équipiers peut varier selon leurs souhaits, certains choisissant notamment <strong>de modifier, d’atténuer ou de supprimer certains signes distinctifs</strong> tels que des grains de beauté, des tatouages, des cicatrices ou autres particularités physiques.</p>
+
+<p><strong>Le résultat finalement sorti par ChatGPT engendre là aussi des variétés.</strong></p>
+
+<p class="important"><span class="accent">Aussi, chaque équipier reste bien entendu libre de choisir d’être représenté et diffusé dans ce type de contenus.</span></p>
+
+<div class="encadre">
+<p>Nous rappelons que <strong><span class="accent">les équipiers sont des salariés mis à disposition sur leur temps de travail</span></strong> et volontaires pour participer aux activités en lien avec les mobilités ferroviaires publiques et l’animation de la communauté en ligne « Le train du ras-le-bol » et, qu’à ce titre, ils agissent dans un cadre professionnel, sous protection de leurs employeurs.</p>
+</div>
+
+<div class="encadre">
+<p>Toute <span class="accent">remarque déplacée</span>, portant sur le <span class="accent">physique des équipiers</span> ou visant à remettre en cause la raison d’être et le sens que nous entendons donner à ces contenus <strong><span class="accent">sera de nature à entraîner une exclusion définitive et sans préavis ou, le cas échéant, des poursuites.</span></strong></p>
+</div>
+
+<div class="encadre">
+<p>Il en va de même pour <span class="accent">toute menace ou agression commise à leur encontre</span>; les dirigeants prenant, comme ils l’ont toujours fait et conformément à leurs obligations<strong><span class="accent">, les mesures nécessaires lorsque de tels faits surviennent</span></strong>.</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>Plus d’informations en message privé ou à <a href="mailto:contact@letrainduraslebol.fr">contact@letrainduraslebol.fr</a></p>
+</footer>
+
+</main>
+</body>
+</html>
+
